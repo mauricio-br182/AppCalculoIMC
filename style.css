@@ -75,11 +75,7 @@ small{
 }
 .on{
     background-color: rgb(218, 120, 30);
-    background-image: url(./img/arrow-icon.png);
-    background-repeat: no-repeat;
-    background-position-x: 65rem ;
-    background-position-y: 0.3rem ;
-    background-size: 2.5rem;
+    
 
 }
 span{
