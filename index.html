@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculo de IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Calculo de IMC</h1>
+    </header>
+
+    <section class="container">
+      <div class="formulario">
+        <label for="">Insira seu peso e sua altura nos campos abaixo sem esqucer as pontuações <br> e observe as informações da tabela </label>
+        <span>Peso</span>
+        <input placeholder="Kg" type="text" maxlength="6" name="peso" id="Peso" />
+        <span>Altura</span>
+        <input placeholder="metros" type="text" maxlength="6" name="altura" id="Altura" />
+
+        <a href="#" onclick="calcularIMC()">enviar</a>
+      </div>
+      <h3 id="resultado">resultado:</h3>
+
+      <div class="tabela">
+        <p class='arrow-1'>Magreza - IMC abaixo de 18,5</p>
+        <p class='arrow-2'>Normal IMC entre 18,5 e 24,9</p>
+        <p class='arrow-3'>Acima do peso IMC entre 25 e 29,9</p>
+        <p class='arrow-4'>Obesidade IMC entre 30 e 39,9</p>
+        <p class='arrow-5'>Obesidade grave IMC acima de 40</p>
+      </div>
+    </section>
+    <script src="app.js">
+    </script>
+  </body>
+</html>
