@@ -81,3 +81,12 @@ small{
 span{
     font-size: 1.4rem;
 }
+section.infos h2{
+    font-size:3rem;
+    margin: 2rem;
+    margin-top: 15rem;
+}
+section.infos p{
+    font-size: 1.8rem;
+    margin: 2rem;
+}
