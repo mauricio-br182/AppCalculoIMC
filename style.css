@@ -75,13 +75,15 @@ small{
 }
 .on{
     background-color: rgb(218, 120, 30);
-    background-image: url(./img/arrow-icon.png);
-    background-repeat: no-repeat;
-    background-position-x: 65rem ;
-    background-position-y: 0.3rem ;
-    background-size: 2.5rem;
-
 }
 span{
     font-size: 1.4rem;
+}
+.infos {
+    font-size: 1.8rem;
+    margin: 4rem;
+    margin-top: 10rem;
+}
+.infos h2{
+    margin-bottom: 2rem;
 }
